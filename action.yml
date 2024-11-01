@@ -1,0 +1,13 @@
+name: 'Secure Salesforce Authentication'
+description: 'A GitHub Action to securely access the SFDX_AUTH_URL and exchange it for an ACCESS_TOKEN and INSTANCE_URL using the d2x package.'
+author: 'Jason Lantz <jason@muselab.com>'
+inputs:
+  SFDX_AUTH_URL:
+    description: 'The Salesforce authentication URL.'
+    required: true
+  GITHUB_TOKEN:
+    description: 'The GitHub token with Environment Management permissions.'
+    required: true
+runs:
+  using: 'python'
+  main: 'main.py'

@@ -1,2 +1,1 @@
-# d2x-action-org-session
-A repository for a GitHub Action to securely access Salesforce credentials
+This repository is empty. Any task executed on it should be considered a new capability and needs to be created.

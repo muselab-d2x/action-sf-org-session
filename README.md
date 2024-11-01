@@ -37,3 +37,18 @@ None
 This action includes logic to manage sessions for accessing Salesforce credentials. When a session is ended, it triggers logic to revoke the Salesforce grant and delete the session environment from GitHub.
 
 To end a session, set a flag in your workflow to trigger the cleanup logic. The action will then revoke the Salesforce grant and delete the session environment.
+
+## Running Tests
+
+To run tests for this project, follow these steps:
+
+1. Install the required dependencies:
+   ```sh
+   python -m pip install --upgrade pip
+   pip install pytest
+   ```
+
+2. Run the tests using `pytest`:
+   ```sh
+   pytest
+   ```
